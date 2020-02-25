@@ -1,4 +1,4 @@
-# display-inputting-data
+# Intuit-Signup-Clone
  Displaying and Inputting Data
 
 Created a form page.
@@ -34,6 +34,9 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Live Demo
+[Live Demo Link](https://raw.githack.com/ricardo123321/Intuit-Signup-Clone/tree/features)
 
 ## Acknowledgments
 
