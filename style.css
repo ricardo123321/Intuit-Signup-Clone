@@ -48,6 +48,7 @@ footer {
     display: grid;
     grid-template-rows: 20px 20px;
     color: #505050;
+    margin-top: 10px;
 }
 
 
