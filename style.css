@@ -206,3 +206,7 @@ button {
   left: 5.2em;
   bottom: 13px;
 }
+
+label {
+  margin-left: -5px;
+}
