@@ -146,7 +146,11 @@ button {
     border-top: transparent;
     text-align: center;
     padding-right: 1.9em;
-    color: #8d9096
+    color: #8D9096;
+    font-size: 9.5px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: -3px;
 }
 
 #sign-in-button{
