@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+html {
+    background-color: #ECEEF1;
+}
+
+a {
+    text-decoration: none;
+    color: #0798E1;
+}
+
+button {
+    background-color: #0077c5;
+    border-radius: 4px;
+    border: 1px solid #4c4c4c;
+}
+
+button span, button i {
+    color: white;
+}
+
+body {
+    display: grid;
+    grid-template-columns: minmax(820px,100%);
+    grid-template-rows: minmax(160px,15vh) minmax(540px,60vh) minmax(105px,10vh);
+    margin: 1em 2em !important;
+}
+
+header {
+    display: grid;
+    grid-template-rows: 4em 6em;
+}
+
+header #sign-in {
+    justify-self: end;
+}
+
+header #logos {
+    justify-self: center;
+}
+
+footer {
+    display: grid;
+    grid-template-rows: 20px 20px;
+    color: #505050;
+}
+
+
+footer #bottom-links {
+    justify-self: center;
+}
+
+footer #bottom-links a {
+    color: #505050;
+    padding: 0 10px;
+}
+
+footer h5 {
+    text-align: center;
+}
+
+html{
+    background-color: #ECEEF1;
+}
+
+body, div, h2, form, input, p { 
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+h2 {
+    padding: 10px 0;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+p {
+    font-size: 12px;
+}
+.form-info {
+    max-width: 340px; 
+    min-height: 460px; 
+    padding: 10px 0;
+    margin: auto;
+    border: solid 1px #ccc;
+    background: #fff
+}
+
+form {
+    margin: 0 30px;
+}
+
+input {
+    width: 100%;
+    height: 36px;
+    margin: 13px 0 0 -5px;
+    padding-left: 10px; 
+    border: solid 1px #CBC9C9; 
+}
+
+input[type=password] {
+    margin-bottom: 15px;
+}
+.btn-bl {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.btn-bl i {
+    position: relative;
+    top: 2px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    background: #1C87C9; 
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+    right: 5px;
+}
+
+#info-account{
+    text-align: center;
+}
+
+#google-info{
+    background-color: #ECEEF1;
+    width: 122%;
+    padding-left: 2.9em;
+    position: relative;
+    left: -30px;
+    bottom: -0.9em;
+    border: solid 1px #ccc;
+    border-top: transparent;
+    text-align: center;
+    padding-right: 1.9em;
+    color: #8d9096
+}
+
+#sign-in-button{
+    height: 34px;
+    width: 105px;
+    border: solid 1px #4c4c4c;
+    margin-right: 10px;
+    position: relative;
+    bottom: 9px;
+}
+
+#sign-in-button span {
+    position: relative;
+    bottom: 5px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+#sign-in-button i {
+    position: relative;
+    bottom: 3px;
+    font-size: 15px;
+    right: 4px;
+}
+
+#upper-span, #sign-in a {
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 0px;
+
+}
+
+#upper-span {
+    position: relative;
+    bottom: 20px;
+    left: 14em;
+    color: #434547;
+}
+
+#upper-a {
+    position: relative;
+    bottom: 6px;
+    right: 8px;
+}
+
+#logos span {
+    position: relative;
+    bottom: 8px;
+    color: #8d9096;
+}
+
+#logos img[alt="Intuit logo"] {
+    position: relative;
+    left: 5.2em;
+    bottom: 13px;
+}
+
+
+
