@@ -1,4 +1,4 @@
-# display-inputting-data
+# Intuit-Signup-Clone
  Displaying and Inputting Data
 
 Created a form page.
