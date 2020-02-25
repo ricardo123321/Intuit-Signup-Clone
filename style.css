@@ -27,7 +27,7 @@ button span, button i {
 body {
     display: grid;
     grid-template-columns: minmax(820px,100%);
-    grid-template-rows: minmax(160px,15vh) minmax(540px,60vh) minmax(105px,10vh);
+    grid-template-rows: minmax(134px,15vh) minmax(597px,60vh) minmax(105px,10vh);
     margin: 1em 2em !important;
 }
 
@@ -202,6 +202,9 @@ button {
     left: 5.2em;
     bottom: 13px;
 }
+
+
+
 
 
 
