@@ -1,0 +1,212 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+html {
+  background-color: #eceef1;
+}
+
+a {
+  text-decoration: none;
+  color: #0798e1;
+}
+
+button span,
+button i {
+  color: white;
+}
+
+body {
+  display: grid;
+  grid-template-columns: minmax(820px, 100%);
+  grid-template-rows: minmax(134px, 15vh) minmax(597px, 60vh) minmax(105px, 10vh);
+  margin: 1em 2em !important;
+}
+
+header {
+  display: grid;
+  grid-template-rows: 4em 6em;
+}
+
+header #sign-in {
+  justify-self: end;
+}
+
+header #logos {
+  justify-self: center;
+}
+
+#upper-span,
+#sign-in a {
+  font-size: 12px;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+footer {
+  display: grid;
+  grid-template-rows: 20px 20px;
+  color: #505050;
+  margin-top: 41px;
+}
+
+footer #bottom-links {
+  justify-self: center;
+}
+
+footer #bottom-links a {
+  color: #505050;
+  padding: 0 10px;
+}
+
+footer h5 {
+  text-align: center;
+}
+
+body,
+div,
+h2,
+form,
+input,
+p {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+h2 {
+  padding: 10px 0;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+p {
+  font-size: 12px;
+}
+
+.form-info {
+  max-width: 340px;
+  min-height: 460px;
+  padding: 10px 0;
+  margin: auto;
+  border: solid 1px #ccc;
+  background: #fff;
+}
+
+form {
+  margin: 0 30px;
+}
+
+input {
+  width: 100%;
+  height: 36px;
+  margin: 13px 0 0 -5px;
+  padding-left: 10px;
+  border: solid 1px #cbc9c9;
+}
+
+input[type=password] {
+  margin-bottom: 15px;
+}
+
+.btn-bl {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.btn-bl i {
+  position: relative;
+  top: 2px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  position: relative;
+  right: 5px;
+  background-color: #0077c5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+}
+
+#info-account {
+  text-align: center;
+}
+
+#google-info {
+  background-color: #eceef1;
+  width: 122%;
+  padding-left: 2.9em;
+  position: relative;
+  left: -30px;
+  bottom: -0.9em;
+  border: solid 1px #ccc;
+  border-top: transparent;
+  text-align: center;
+  padding-right: 1.9em;
+  color: #8d9096;
+  font-size: 9.5px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-bottom: -3px;
+}
+
+#sign-in-button {
+  height: 34px;
+  width: 105px;
+  border: solid 1px #4c4c4c;
+  margin-right: 10px;
+  position: relative;
+  bottom: 9px;
+}
+
+#sign-in-button span {
+  position: relative;
+  bottom: 5px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+#sign-in-button i {
+  position: relative;
+  bottom: 3px;
+  font-size: 15px;
+  right: 4px;
+}
+
+#upper-span {
+  position: relative;
+  bottom: 20px;
+  left: 14em;
+  color: #434547;
+}
+
+#upper-a {
+  position: relative;
+  bottom: 6px;
+  right: 8px;
+}
+
+#logos span {
+  position: relative;
+  bottom: 8px;
+  color: #8d9096;
+}
+
+#logos img[alt="Intuit logo"] {
+  position: relative;
+  left: 5.2em;
+  bottom: 13px;
+}
+
+label {
+  margin-left: -5px;
+}
